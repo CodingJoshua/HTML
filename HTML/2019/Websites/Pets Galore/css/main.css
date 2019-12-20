@@ -9,12 +9,21 @@ a {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
+	pointer-events: none;
+}
+span {
+	font-family: 'Open Sans', sans-serif;
+	pointer-events: none;
 }
 h1, h2, h3, h4, h5 {
 	font-family: 'Lobster', cursive;
+	pointer-events: none;
 }
 a {
 	font-family: 'Indie Flower', cursive;
+}
+th {
+	font-family: 'Heebo', sans-serif;
 }
 header {
 	width: 100%;
@@ -27,10 +36,13 @@ header {
     border-width: thick;
     border-bottom-style: solid;
 }
-nav {
-	width: 100%;
-	align-content: center;
+.logo {
 	float: left;
+	width: 75px;
+	height: 60px;
+}
+nav {
+	align-content: center;
 	padding: 0;
 	margin: 0;
 }
@@ -44,7 +56,6 @@ nav ul a {
 	margin: 0px;
 	display: inline-block;
 	padding: 18.5px 56px;
-	float: left;
 }
 nav ul a:hover {
 	margin: 0px;
@@ -57,12 +68,17 @@ nav ul a:hover {
     border-bottom-style: solid;
 }
 .navbar {
-	width: 100%;
 	align-content: center;
 	float: left;
 	padding: 0;
 	margin: 0;
 	display: flex;
+}
+.title {
+	float: left;
+    padding: 75px 5px 15px;
+    margin: 0;
+    position: absolute;
 }
 body {
 	margin: 0;
@@ -87,17 +103,49 @@ body {
 }
 .store-items .ii {
 	width: 60px;
+	font-family: 'Anton', sans-serif;
+	pointer-events: none;
 }
 .store-items .in {
 	width: 60px;
+	font-family: 'Anton', sans-serif;
+	pointer-events: none;
 }
 .store-items .idesc {
 	width: 30px;
+	font-family: 'Anton', sans-serif;
+	pointer-events: none;
 }
 .store-items .pri {
 	width: 60px;
+	font-family: 'Anton', sans-serif;
+	pointer-events: none;
 }
 .item-image {
-	width: 70px;
+	width: 75px;
 	height: 70px;
+}
+.ind-item-image {
+	width: 390px;
+	height: 300px;
+	float: left;
+	pointer-events: none;
+}
+.item-desc-para {
+	width: auto;
+	pointer-events: none;
+}
+.pricing {
+	font-size: 25px;
+	pointer-events: none;
+}
+footer {
+	height: 100px;
+}
+.footer-copyright {
+	justify-content: center;
+	width: 100%;
+	display: inline-flex;
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 19.5px;
 }
